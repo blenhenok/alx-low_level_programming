@@ -1,6 +1,7 @@
 # include<stdio.h>
-/*
- * return = 0;
+/**
+ * main - main entry point
+ * return : always 0
  */
 int main(void)
 {
