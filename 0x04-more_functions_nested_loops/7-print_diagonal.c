@@ -1,7 +1,8 @@
 #include "main.h"
+
 /**
  * print_diagonal - Entry point
- * @n: The character
+ * @n: the parameter
  * Return: no return
  */
 void print_diagonal(int n)
