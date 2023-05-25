@@ -3,7 +3,7 @@
  * print_numbers - Entry point
  * Return: no return
  */
-void print_numbers(void);
+void print_numbers(void)
 {
 	int a;
 
