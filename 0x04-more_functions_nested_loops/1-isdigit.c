@@ -5,9 +5,9 @@
  * @c: The character
  * Return: 0 or 1
  */
-int _isdigit(int c);
+int _isdigit(int c)
 {
-	if (c >= 48 && c <= 57)
+	if (c >= 0 && c <= 9)
 	{
 		return (1);
 	}
