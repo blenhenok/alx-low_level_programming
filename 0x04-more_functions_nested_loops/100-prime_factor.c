@@ -5,7 +5,8 @@
  */
 int main(void)
 {
-	float n = 612852475143, i;
+	long n = 612852475143; 
+	int i;
 
 	for (i = 2; i <= n; i++)
 	{
@@ -15,6 +16,6 @@ int main(void)
 			i--;
 		}
 	}
-	printf("%d\n", i);
+	printf("%ld\n", i);
 	return (0);
 }
