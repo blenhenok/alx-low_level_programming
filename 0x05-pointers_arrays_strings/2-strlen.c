@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
 /**
  * _strlen - Entry point
  * @s: the character
@@ -8,5 +7,9 @@
  */
 int _strlen(char *s)
 {
-	printf(strlen(*s));
+	int c = 0;
+
+	while (*(s + c) != '\0')
+		c++;
+	return (c);
 }
