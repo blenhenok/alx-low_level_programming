@@ -19,15 +19,15 @@ int is_prime(unsigned int n, unsigned int c)
 /**
  * is_prime_number - Entry point
  * @n: input
- * Return: square
+ * Return: prime
  */
 int is_prime_number(int n)
 {
-	if (n < 0)
-		return (-1);
 	if (n == 0)
 		return (0);
+	if (n < 0)
+		return (0);
 	if (n == 1)
-		return (1);
-	return (power_operation(n, 2));
+		return (0);
+	return (is_prime(n, 2));
 }
